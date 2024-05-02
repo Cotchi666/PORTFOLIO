@@ -1,6 +1,6 @@
 import self from '../img/mine.jpg';
 import resume from '../img/resume.pdf';
-
+import chatbot from './chatbot.png'
 import { colors } from '../colors/mainGradient';
 
 export const info = {
@@ -53,7 +53,7 @@ export const info = {
       label: 'facebook',
     },
   ],
-  bio: "Hello! I'm Nguyen Ngoc Chien. I'm a Full Stack Developer. I studied CompSci at Gia Dinh Uni, I enjoy building web applications and learning new technologies. I'm currently working at home as a freelance Full Stack Developer. I love to draw and play video games . I'm currently based in Ho Chi Minh city, VietNam.",
+  bio: "I'm Finn Chien, a Full Stack Developer. I'm currently based in Ho Chi Minh city, VietNam.",
   skills: {
     // you dont havew to strictly follow the 'languages', 'frameworks', 'databases', 'cloudServices', and 'tools' categories. You can add your own if you'd like.
     // but the structure should be the same, an array of strings and the key should be one word, no spaces.
@@ -116,6 +116,12 @@ export const info = {
     // This is where your portfolio projects will be detailed
     //   for the null ones, the button will not show up
     {
+      title: 'Chatbot Javis ',
+      live: 'https://javis-f3q7.onrender.com',
+      source: 'https://github.com/Cotchi666/chatbot-javis',
+      image: chatbot,
+    },
+    {
       title: 'Netflix-Clone - Online Watching Movies platform based off of Netflix',
       live: 'https://client-hoy3.onrender.com', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/Cotchi666/netflix-mern-app.git.', // this should be a link to the **repository** of the project, where the code is hosted.
@@ -127,5 +133,6 @@ export const info = {
       source: 'https://github.com/Cotchi666',
       image: 'https://www.freecodecamp.org/news/content/images/2021/08/giphy.gif',
     },
+    
   ],
 };
