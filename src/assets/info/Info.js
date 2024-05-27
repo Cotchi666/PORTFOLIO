@@ -28,7 +28,7 @@ export const info = {
   ],
   socials: [
     {
-      link: resume,
+      link: "",
       icon: 'fa fa-file',
       label: 'resume',
     },
