@@ -7,7 +7,7 @@ export const info = {
   firstName: 'Chien',
   lastName: 'Nguyen',
   initials: 'JS', // the example uses first and last, but feel free to use three or more if you like.
-  position: 'a Full Stack Developer',
+  position: 'a Software Engineer',
   selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
   gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
   baseColor: colors[0],
@@ -19,7 +19,7 @@ export const info = {
     },
     {
       emoji: '💻',
-      text: 'Full Stack Developer',
+      text: 'Software Engineer',
     },
     {
       emoji: '📧',
@@ -33,7 +33,7 @@ export const info = {
       label: 'resume',
     },
     {
-      link: 'https://www.instagram.com/finney.1709/',
+      link: 'https://www.facebook.com/finney.ng/',
       icon: 'fa fa-instagram',
       label: 'instagram',
     },
@@ -48,12 +48,12 @@ export const info = {
       label: 'linkedin',
     },
     {
-      link: 'https://www.facebook.com/finney.1709/',
+      link: 'https://www.facebook.com/finney.ng/',
       icon: 'fa fa-facebook',
       label: 'facebook',
     },
   ],
-  bio: "I'm Finn Chien, a Full Stack Developer. I'm currently based in Ho Chi Minh city, VietNam.",
+  bio: "I'm Finn Chien, a Software Engineer. I'm currently based in Ho Chi Minh city, VietNam.",
   skills: {
     // you dont havew to strictly follow the 'languages', 'frameworks', 'databases', 'cloudServices', and 'tools' categories. You can add your own if you'd like.
     // but the structure should be the same, an array of strings and the key should be one word, no spaces.
